@@ -1,0 +1,14 @@
+Jan 17, 2019 6:27:34 PM com.genuitec.pulse.client.deliverypackage.runtime.internal.Activator initializeLoggers
+INFO: Package starting up at Thu Jan 17 18:27:34 CET 2019
+Jan 17, 2019 6:27:35 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [0.0.0.0:33547]
+Jan 17, 2019 6:27:35 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+Jan 17, 2019 6:27:35 PM org.glassfish.tyrus.server.Server start
+INFO: WebSocket Registered apps: URLs all start with ws://localhost:33547
+Jan 17, 2019 6:27:35 PM org.glassfish.tyrus.server.Server start
+INFO: WebSocket server started.
+Jan 17, 2019 6:28:32 PM org.glassfish.grizzly.http.server.NetworkListener shutdownNow
+INFO: Stopped listener bound to [0.0.0.0:33547]
+Jan 17, 2019 6:28:32 PM org.glassfish.tyrus.server.Server stop
+INFO: Websocket Server stopped.

@@ -1,0 +1,144 @@
+!SESSION 2019-01-17 18:20:52.534 -----------------------------------------------
+eclipse.buildId=18.0.0.CI-AI
+java.version=1.8.0_191
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_GB
+Framework arguments:  -product com.genuitec.eclipse.code.angularide.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.genuitec.eclipse.code.angularide.product
+
+!ENTRY org.eclipse.ui 2 0 2019-01-17 18:27:29.792
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2019-01-17 18:27:29.792
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.code.ui 1 0 2019-01-17 18:27:31.918
+!MESSAGE CodeMix Engine will be started momentarily to support development activities
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:27:33.876
+!MESSAGE System property https.proxyHost is set to proxy.logica.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:27:33.899
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:27:33.901
+!MESSAGE System property https.proxyHost is set to proxy.logica.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:27:33.902
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-01-17 18:27:35.508
+!MESSAGE CodeMix Engine needs to be installed; new installation
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:27:42.855
+!MESSAGE System property https.proxyHost is set to proxy.logica.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:27:42.855
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-01-17 18:27:42.877
+!MESSAGE Initializing CodeMix Engine's settings file at /home/chris/Angular-AlbumStoreProductPage/.metadata/codemix.code-workspace
+
+!ENTRY com.genuitec.eclipse.code.core 1 0 2019-01-17 18:27:42.933
+!MESSAGE CodeMix Engine engine has been started
+
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2019-01-17 18:27:42.968
+!MESSAGE Unexpected status code [400] downloading extension Icon
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:27:42.969
+!MESSAGE System property https.proxyHost is set to proxy.logica.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:27:42.969
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2019-01-17 18:27:43.010
+!MESSAGE Unexpected status code [400] downloading extension Icon
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:27:43.038
+!MESSAGE System property https.proxyHost is set to proxy.logica.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:27:43.039
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.ui 4 0 2019-01-17 18:27:43.083
+!MESSAGE Unexpected status code [400] downloading extension Icon
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:27:45.052
+!MESSAGE System property https.proxyHost is set to proxy.logica.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:27:45.119
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY com.genuitec.eclipse.code.core 4 0 2019-01-17 18:27:45.140
+!MESSAGE CodeMix Engine Process has ended unexpectedly [1]: [93m[main 18:27:44][0m Could not delete obsolete instance handle { Error: ENOENT: no such file or directory, unlink '/home/chris/Angular-AlbumStoreProductPage/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/1/1.27.1-main.sock'
+    at Object.fs.unlinkSync (original-fs.js:1073:18)
+    at /root/.codemix/engine/resources/app/out/vs/code/electron-main/main.js:32706:28
+    at Object.notifyError [as _notify] (/root/.codemix/engine/resources/app/out/vs/code/electron-main/main.js:7257:50)
+    at Object.enter (/root/.codemix/engine/resources/app/out/vs/code/electron-main/main.js:6943:30)
+    at Promise_ctor._run (/root/.codemix/engine/resources/app/out/vs/code/electron-main/main.js:7116:29)
+    at Promise_ctor._error (/root/.codemix/engine/resources/app/out/vs/code/electron-main/main.js:7089:18)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'unlink',
+  path: '/home/chris/Angular-AlbumStoreProductPage/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/1/1.27.1-main.sock' }
+[91m[main 18:27:44][0m Error: ENOENT: no such file or directory, unlink '/home/chris/Angular-AlbumStoreProductPage/.metadata/.plugins/com.genuitec.eclipse.code.core/.codeMixData/1/1.27.1-main.sock'
+    at Object.fs.unlinkSync (original-fs.js:1073:18)
+    at /root/.codemix/engine/resources/app/out/vs/code/electron-main/main.js:32706:28
+    at Object.notifyError [as _notify] (/root/.codemix/engine/resources/app/out/vs/code/electron-main/main.js:7257:50)
+    at Object.enter (/root/.codemix/engine/resources/app/out/vs/code/electron-main/main.js:6943:30)
+    at Promise_ctor._run (/root/.codemix/engine/resources/app/out/vs/code/electron-main/main.js:7116:29)
+    at Promise_ctor._error (/root/.codemix/engine/resources/app/out/vs/code/electron-main/main.js:7089:18)
+    at Object.onceWrapper (events.js:315:30)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at emitErrorNT (internal/streams/destroy.js:64:8)
+    at _combinedTickCallback (internal/process/next_tick.js:138:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:28:14.417
+!MESSAGE System property https.proxyHost is set to proxy.logica.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:28:14.418
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:28:15.078
+!MESSAGE System property https.proxyHost is set to proxy.logica.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:28:15.079
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:28:15.083
+!MESSAGE System property https.proxyHost is set to proxy.logica.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:28:15.083
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:28:15.084
+!MESSAGE System property https.proxyHost is set to proxy.logica.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:28:15.084
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:28:15.774
+!MESSAGE System property https.proxyHost is set to proxy.logica.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:28:15.775
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:28:32.520
+!MESSAGE System property https.proxyHost is set to proxy.logica.com but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2019-01-17 18:28:32.521
+!MESSAGE System property https.proxyPort is set to 80 but should not be set.
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-01-17 18:28:33.354
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.eclipse.webclipse.evergreen.internal.EvergreenManifestManager$ManifestUpdateJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2019-01-17 18:28:33.355
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: com.genuitec.eclipse.code.evergreen.internal.CodeManifestManager$ManifestUpdateJob
